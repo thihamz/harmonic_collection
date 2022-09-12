@@ -62,13 +62,13 @@
       color: transparent;
       text-shadow: 0 0 4px #000;
      }
-      .containerleft {
-      margin: left;
-      width: 15%;
-      border: 1px solid #000;
-      padding: 15px;
-      padding-left: 5%;
-     }
+      *{
+        box-sizing: border-box;
+      }
+     .child {
+      border: 1px solid #fff;
+      float: left;
+      width: 50%;
      }
     </style>
   </head>
@@ -86,29 +86,27 @@
       </p>
     </div>
     
-    <div>
+    <section>
       <p class="subtitle" >
       YOUR DEFINITION OF HOME.
       </p>
-    </div>
+    </section>
 
   <br><br><br>
 
-    <div class="containerleft" class="personaldata">
+    <div class="child" class="personaldata">
       <p>
       <span id="blur">idpitta179</span>@newschool.edu <br>
       09/09/22 | 15:13:00
       </p>
     </div>
 
-      <div class="definitions">
+      <section class="child" class="definitions">
         <p>
         Home isn't just a place for me, it's the people and things that truly forn the meaning of home. My mother's recipe,
         the fragrance of the soil on the 1st rain of monsoon and the comfort of my bed is what I believe is home to me.
       </p>
-    </div>
-    <br>
-    <hr>
-    <br>
+    </section>
+
   </body>
 </html>
