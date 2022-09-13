@@ -110,7 +110,24 @@
     margin: 10px; 
     border: 1px solid rgb(255, 255, 255); 
     }
+
+    .nev-container-element { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    border: 1px solid rgb(201, 17, 17)
+    width; 50%; 
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    }
+    .nev-child-element { 
+    margin: 1px; 
+    border: 1px solid rgb(255, 255, 255); 
+    }
     </style>
+    
   </head>
 
 
@@ -118,17 +135,20 @@
     <div class="mydiv">
       <p class="mytext">
         <span class="myslooptitle">W</span> elcome <span cass="mysloop">
-        <span class="myslooptitle">H</span> ome
+        <span class="myslooptitle">H</span> ome!
       </p>
     </div>
     
-    <section>
-      <p class="subtitle" >
-      YOUR DEFINITION OF HOME.
-      </p>
-    </section>
+
 
   <br><br><br>
+  
+  <div class="nev-container-element">
+    <div class="nev-child-element">ENTER YOUR DEFINTION</div>
+    <div class="nev-child-element">INSTAGRAM</div>
+  </div>
+
+      <hr>
 
   <div class="grid-container-element">
     
@@ -228,7 +248,7 @@
         </div>
       
       <hr>
-      
+
       <div class="grid-container-element">
         <div class="grid-child-element purple"> <span id="blur">makkd805</span>@newschool.edu<br>9/10/2022 11:51:44 </div>
         <div class="grid-child-element green"><span class="mysloopbody">H</span> ome is where you’re comfortable and you become the one that’s taken care of.
