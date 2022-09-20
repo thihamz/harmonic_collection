@@ -1,10 +1,51 @@
 /* This is color palette
 Off White #F6F4E7 , Olive #55823A */
 
-body {
+
+.subtitle {
+    font-family: aktiv-grotesk-condensed,sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 0.3em;
+line-height: 1.2em;
+}
+
+.tv {
+    width: 700px;
+height: 700px;
+margin: auto;
+}
+
+hr {
+    border: 1px dotted #F6F4E7;
+}
+iframe {
+    align: center;
+    height: 450px;
+    width: 450px;
+}
+.responsive-iframe {
+	max-width: 100%;
+	padding-top: 2%;
+	position: relative;
+	width:auto;
+}
+
+
+
+
+
+
+
+.body {
     background-image: url('images/looney-tunes-background.jpg');
     background-size: 100% 60%;
   }
+.background {
+  background-image: linear-gradient(to bottom right, red, yellow);
+  width: 100%;
+  height: auto;
+}
 .right {
     align: right;
 }
@@ -31,22 +72,5 @@ line-height: 0.9em;
 color: #F6F4E7;
 padding: 0.3em;
 align: left;
-border: 1px solid rgb(232, 232, 30 
-}
-
-.lets {
-    font-family: aktiv-grotesk-condensed,sans-serif;
-font-weight: 400;
-font-style: normal;
-font-size: 0.3em;
-line-height: 1.2em
-}
-
-.tv {
-    width: 100%;
-height: auto;
-}
-
-hr {
-    border-color:rgb(232, 232, 30)
+border: 1px solid rgb(232, 232, 30;
 }
