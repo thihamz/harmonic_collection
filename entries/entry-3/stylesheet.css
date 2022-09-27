@@ -1,0 +1,97 @@
+/* This is color palette
+Off White #F6F4E7 , Olive #55823A , Light Olive #9CBC5B */ 
+
+/* background + border effects */
+.b-div2 {
+    border-left: solid 3px #55823A;
+    border-right: solid 3px #55823A;
+    background-color: transparent;
+    border-radius: 1em;
+    padding:1.6em;
+    margin: 1em;
+}
+
+.b-div {
+    border-left: solid 2px #55823A;
+    border-right: solid 2px #55823A;
+    background-color: transparent;
+    border-radius: 1em;
+    padding: 2em;
+    margin: 0.2em;
+}
+
+.background {
+    border-left: solid 3.5px #55823A;
+    border-right: solid 3.5px #55823A;
+    background-color: transparent;
+    border-radius: 1.3em;
+    padding: 0.79em;
+    background-color: #F6F4E7;
+    margin: 3em;
+}
+
+
+/* header styles */
+
+.showtime-div {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.subtitle-div {
+    padding: 0.6em;
+    width: auto;
+    position: relative;
+    text-align: center;
+    line-height: 0.2em;
+    border-radius: 10em;
+    padding-bottom: 2em;
+}
+
+h3 {
+    color: #55823A;
+    font-family: aktiv-grotesk-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+    margin-top: 1vw;
+}
+
+
+ /* body content and div styles */
+
+.div {
+    width: auto;
+    margin: 1em;
+    background-color: #55823A;
+    border: 1px solid #F6F4E7;
+    border-radius: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.show-titles {
+    border-radius: 0.2em;
+    padding: 0.2em;
+    color: #F6F4E7;
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 5vw;
+    font-kerning: 2em;
+    border-bottom: 4px solid #F6F4E7;
+}
+
+.show-info {
+    border-radius: 0.3em;
+    padding: 0.2em;
+    color: #F6F4E7;
+    font-family: aktiv-grotesk,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 2vw;
+    padding-bottom: 2em;
+    border-bottom: 4px solid #F6F4E7;
+}
