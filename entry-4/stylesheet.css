@@ -41,10 +41,6 @@ Off White #F6F4E7 , Olive #55823A , Light Olive #9CBC5B */
 	.pill:first-child { background-color: rgb(0, 110, 255);
   }
 }
-@media (min-width: 500px) and (max-width: 800px) {
-	.pill:nth-child(2) { background-color: rgb(0, 110, 255);
-  }
-}
 
 .title {
   padding: 2vw;
