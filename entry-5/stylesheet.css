@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 2vw;
+}
+
+
+article :not(first-child) {
+    margin-top: 2vw;
+}
+
+main {
+    border-radius: 50vw;
+    font-family: sloop;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+}
+
+#cozy {
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10vw;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+}
+
+#thumbnail {
+    padding: 2vw;
+}
+
+#strain-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 3vw;
+}
+
