@@ -5,33 +5,37 @@ body {
 
 header {
     background-color: transparent;
-    border: 1px solid rgb(21, 169, 237);
-    padding: 1vw;
+    border: 1px solid rgb(226, 21, 237);
+    padding: 0vw;
 
 }
 
 div {
     font-family: din-condensed, sans-serif;
-    font-size: 2vw;
+    font-size: 1.25em;
     border: 1px solid rgb(32, 108, 223);
+    flex-direction: column;
+    justify-content: space-around ;
 }
 
 article {
+    border: 1px solid pink;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 3vw;
+    gap: 2vw;
+    padding: 2vw;
 }
 
 section {
     border: 1px solid rgb(226, 23, 23);
     border-radius: 0vw;
     display: grid;
-    grid-template-columns: 200px 2fr;
+    grid-template-columns: 2fr;
 }
 
 aside {
     border: 1px solid rgb(16, 235, 41);
-
 }
+
 
 
