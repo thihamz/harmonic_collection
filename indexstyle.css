@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+main {
+    background-color: lightblue;
+}
+
+article {
+    border: 1px solid green;
+    background-color: lightblue;
+    padding: 1vw;
+}
+
+div {
+    border: 1px solid blueviolet;
+    padding: 1vw;
+    font-family
+}
