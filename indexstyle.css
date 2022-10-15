@@ -1,4 +1,5 @@
 body {
+    padding: 2vw;
     background-color: black;
 }
 
@@ -7,13 +8,70 @@ main {
 }
 
 article {
+    margin-top: 5vw;
     border: 1px solid green;
     background-color: lightblue;
+    padding: 1vw;
+}
+
+aside {
+    border: 1px solid blueviolet;
     padding: 1vw;
 }
 
 div {
     border: 1px solid blueviolet;
     padding: 1vw;
-    font-family
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5vw;
+}
+
+div:not() {
+    margin-top: 2vw;
+}
+
+a {
+    color: black;
+}
+
+div:hover {
+    background-color: white;
+}
+
+#title {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15vw;
+    line-height: 12vw;
+}
+
+#nav-bar {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5vw;
+}
+
+@media (min-width: 900px) {
+	main {
+        background-color: rgb(25, 25, 222);
+	}
+    #title {
+        color: white;
+    }
+    #nav-bar {
+        color: white;
+    }
+    article {
+        background-color:rgb(25, 25, 222);
+    }
+    a {
+        color: white;
+    }
+    div:hover {
+        background-color: rgb(244, 9, 174);
+    }
 }
