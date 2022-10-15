@@ -3,6 +3,11 @@ a {
     width: 100%;
 }
 
+.header {
+    color: lightblue;
+    margin-top: 5vw;
+}
+
 main {
     border: 1px solid rgb(35, 221, 32);
     background-color: lightblue;
@@ -89,14 +94,20 @@ a:hover {
 
 .grid-container-element-header {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1.2fr 3fr;
     grid-gap: 20px;
-    border: 1px solid #F6F4E7;
+    border: 1px solid lightblue;
     width: 100%;
-    padding: 1%;
     font-family: aktiv-grotesk, sans-serif;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
+    font-size: 5vw;
+}
+
+.grid-child-element-header {
+    padding: 0.5vw;
+    margin: 10px;
+    border: 1px solid yellow;
 }
 
 .grid-container-element {
@@ -107,12 +118,11 @@ a:hover {
     width: 100%;
     border: 1px solid rgb(50, 238, 17);
     font-family: aktiv-grotesk, sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: italic;
-    padding-bottom: 1vw;
+    font-size: 1.8vw;
     line-height: 2vw;
     color: black;
-    color: rgb(0, 0, 0);
 }
 
 .grid-child-element {
@@ -121,4 +131,101 @@ a:hover {
     border: 1px solid yellow;
 }
 
-@media ()
+.grid-container-element:hover {
+    background-color: white;
+}
+
+@media (min-width: 900px) {
+    .grid-container-element {
+        background-color: white;
+    }
+    .header {
+        color: rgb(255, 255, 255);
+    }
+    main {
+        background-color: rgb(255, 255, 255);
+    }
+    a:link,
+    a:visited {
+    background-color: white;
+    color: blue;
+    }
+
+    a:hover {
+        background-color: hotpink;
+        color: white;
+    }
+
+    .title {
+        color: blue;
+    }
+    
+    #blur {
+        text-shadow: 0 0 6px blue;
+    }
+
+    .grid-child-element {
+        color: blue;
+    }
+    
+    .grid-child-element:hover {
+        color: white;
+    }
+
+    .grid-container-element:hover {
+        background-color: hotpink;
+    }
+    
+    .aktiv-first {
+        color: blue;
+    }
+    
+    .aktiv-first:hover {
+        color: white;
+    }
+}
+
+@media (max-width: 500px) {
+    .grid-container-element {
+        grid-template-columns: 1fr;
+}
+.grid-container-element {
+    background-color: coral;
+}
+.header {
+    color: coral;
+}
+main {
+    background-color: coral;
+}
+a:link,
+a:visited {
+background-color: coral;
+color: white;
+}
+
+a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.title {
+    color: white;
+}
+
+#blur {
+    text-shadow: 0 0 6px #ffffff;
+}
+
+.grid-child-element {
+    color: white;
+}
+
+.grid-container-element:hover {
+    background-color: blueviolet;
+}
+
+.aktiv-first {
+    color: white;
+}
+}
