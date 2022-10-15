@@ -4,91 +4,52 @@ Off White #F6F4E7 , Olive #55823A , Light Olive #9CBC5B */
 /* background + border effects 
  <div class="heart-shape"></div> */
 
-.audio-div {
- display: flex;
- align: center;
-}
 
- .background {
-  padding: 8em;
-}
 
-.but {  
-  display: absolute;
-  text-align: center;
-  color: red;
+body {
+  background-color: black;
   padding: 2vw;
-  font-family: 'VT323', monospace;
-  font-size: 5vw;
-  font-weight: 400;
-  color: rgb(73, 232, 15);
 }
 
-.pill {
-  position: flex;
-  top: calc(50% - 20px);
-  left: calc(50% - 20px);
-  border-radius: 50em;
-  background-color: #fff;
-  text-align: center;
-  box-shadow:
-    0 0 60px 30px rgb(245, 8, 83),
-    0 0 100px 60px rgb(195, 0, 255),
-    0 0 140px 90px rgb(17, 247, 247);
-}
-
-@media (min-width: 500px) and (max-width: 800px) {
-	.pill:first-child { background-color: rgb(0, 110, 255);
-  }
-}
-
-.title {
-  padding: 2vw;
-  font-family: 'VT323', monospace;
-  font-size: 5vw;
-  font-weight: 400;
-  color: rgb(238, 30, 103);
-}
-
-.title-two {
-  padding: 2vw;
-  font-family: 'VT323', monospace;
-  font-size: 5vw;
-  font-weight: 400;
-  color: rgb(73, 232, 15);
-}
-
-/*=
-.heart-shape {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);
+main {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 2vw;
+  padding: 1vw;
   background-color: red;
+  border: 1px solid rgb(195, 28, 237);
 }
-.heart-shape:before,
-.heart-shape:after {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  content: '';
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -o-border-radius: 50%;
-  border-radius: 50%;
+
+aside {
+  border: 1px solid rgb(30, 186, 242);
+}
+
+article {
+  padding: 1vw;
+  margin-top: 5vw;
+  border: 1px solid greenyellow;
+}
+
+section {
+  gap: 2vw;
+  padding: 1vw;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
   background-color: red;
+  border: 1px solid blue
 }
-.heart-shape:before {
-  bottom: 0px;
-  left: -100px;
+
+section:not(:first-child) {
+  margin-top: 2vw;
 }
-.heart-shape:after {
-  top: -100px;
-  right: 0px;
+
+div {
+  margin: 1vw;
+  border: 1px solid rgb(0, 0, 0);
 }
-*/
+
+#thumbnail {
+  padding: 2vw;
+}
+
 
