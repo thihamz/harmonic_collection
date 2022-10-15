@@ -1,0 +1,124 @@
+a {
+    border: 1px solid purple;
+    width: 100%;
+}
+
+main {
+    border: 1px solid rgb(35, 221, 32);
+    background-color: lightblue;
+}
+
+body {
+    padding: 2vw;
+    background-color: black;
+}
+
+div {
+    border: 1px solid purple;
+}
+
+a:link,
+a:visited {
+    background-color: lightblue;
+    color: black;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    padding-left: 1vw;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+}
+
+.title {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20vw;
+    line-height: 16vw;
+    color: black;
+    text-align: left;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+
+.aktiv-first {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-bottom: 1vw;
+    line-height: 1.2vw;
+    color: black;
+
+}
+
+.button {
+    font-family: aktiv-grotesk, sans-serif;
+}
+
+.personaldata {
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 450;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 5%;
+}
+
+
+#blur {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: transparent;
+    text-shadow: 0 0 6px #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.grid-container-element-header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+    border: 1px solid #F6F4E7;
+    width: 100%;
+    padding: 1%;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.grid-container-element {
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1vw;
+    width: 100%;
+    border: 1px solid rgb(50, 238, 17);
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    padding-bottom: 1vw;
+    line-height: 2vw;
+    color: black;
+    color: rgb(0, 0, 0);
+}
+
+.grid-child-element {
+    padding: 1vw;
+    margin: 10px;
+    border: 1px solid yellow;
+}
+
+@media ()
