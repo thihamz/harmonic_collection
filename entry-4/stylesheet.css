@@ -2,7 +2,12 @@
 Off White #F6F4E7 , Olive #55823A , Light Olive #9CBC5B */
 
 /* background + border effects 
- <div class="heart-shape"></div> */
+ <div class="heart-shape"></div> 
+ 
+ font-family: lores-21-serif,sans-serif;
+font-weight: 400;
+font-style: normal;
+ */
 
 
 
@@ -21,13 +26,18 @@ main {
 }
 
 aside {
-  border: 1px solid rgb(30, 186, 242);
+  justify-content: center;
+  border: 0.5px solid rgb(167, 245, 23);
 }
 
 article {
-  padding: 1vw;
   margin-top: 5vw;
   border: 1px solid greenyellow;
+}
+
+#article-content {
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 section {
@@ -43,13 +53,106 @@ section:not(:first-child) {
   margin-top: 2vw;
 }
 
+div:hover {
+  padding: 2.2vw;
+  color: red;
+  background-color: aqua;
+  transition: 200ms;
+  border-radius: 2vw;
+}
+
 div {
-  margin: 1vw;
-  border: 1px solid rgb(0, 0, 0);
+    padding: 2vw;
+    color:black;
+    margin: 1vw;
+    border: 1px solid rgb(0, 0, 0);
 }
 
 #thumbnail {
+  width: 20vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 1vw;
+}
+
+span:hover {
+  font-family: lores-21-serif,sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16vw;
+  color: aqua;
+  letter-spacing: 0.5vw;
+  transition: 300ms;
+}
+
+#info {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+a:hover {
+  color: red;
+  transition: 300ms;
+}
+
+#recent:hover {
+  color: aqua;
+  transition: 300ms;
+}
+
+nav {
   padding: 2vw;
+  background-color: white;
+  color: blue;
+}
+
+#nav-article {
+  position: sticky;
+  top: 0;
+  margin-bottom: 3vw;
+}
+
+#nav-aside {
+  text-align: center;
+  margin: 1vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#nav-previous {
+  text-align: left;
+}
+
+#nav-next {
+  text-align: right;
+}z
+
+
+
+@media (max-width: 500px) {
+  section {
+    grid-template-columns: 1fr;
+  }
 }
 
 
+
+@media (min-width: 900px) {
+  div {
+    padding: 1vw;
+    color:black;
+    margin: 0vw;
+    border: 1px solid rgb(0, 0, 0);
+}
+  #article-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+  section {
+    margin: 1.5vw;
+ }
+ #thumbnail {
+  width: 9vw;
+  }
+}

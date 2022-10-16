@@ -4,6 +4,7 @@
     font-style: normal;
     font-size: 15vw;
     line-height: 12vw;
+    letter-spacing: -1vw;
 }
 
 #recent {
@@ -22,12 +23,48 @@ a {
     line-height: 1vw;
     color: black;
 }
-
-p {
+ div {
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 800;
     font-style: normal;
     font-size: 3vw;
     line-height: 1vw;
-    color:black;
-  }
+ }
+
+ #nav-a {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5vw;
+    line-height: 1vw;
+ }
+ 
+ a:link { text-decoration: none; }
+ a:visited { color: white }
+
+
+
+@media (min-width: 900px) {
+    a {
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 1.3vw;
+        line-height: 1vw;
+        color: black;
+    }
+    div {
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 1.3vw;
+        line-height: 1.3vw;
+     } 
+     #nav-a {
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 2vw;
+        line-height: 1vw;
+     }
+}
