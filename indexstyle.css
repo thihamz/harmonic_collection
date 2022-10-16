@@ -5,18 +5,18 @@ body {
 
 main {
     background-color: lightblue;
+    padding: 2vw;
 }
 
 article {
     margin-top: 5vw;
-    border: 1px solid green;
+    border: 1px solid rgb(24, 224, 24);
     background-color: lightblue;
-    padding: 1vw;
 }
 
 aside {
-    border: 1px solid blueviolet;
-    padding: 1vw;
+    border: 1px solid red;
+    margin: 2vw;
 }
 
 div {
@@ -38,39 +38,64 @@ a {
 
 div:hover {
     background-color: white;
+    border-radius: 2vw;
+    margin: 1vw;
+    transition: 350ms;
 }
 
 #title {
     font-family: aktiv-grotesk, sans-serif;
-    font-weight: 700;
+    font-weight: 800;
     font-style: normal;
-    font-size: 15vw;
+    font-size: 14vw;
     line-height: 12vw;
+    letter-spacing: -0.8vw;
 }
 
-#nav-bar {
+#sub {
     font-family: aktiv-grotesk, sans-serif;
-    font-weight: 400;
+    font-weight: 800;
     font-style: normal;
-    font-size: 5vw;
+    font-size: 3vw;
+}
+
+#sub:hover {
+    color: red;
+    font-size: 3.5vw;
+    transition: 250ms;
+}
+
+span:hover {
+    font-family: lores-21-serif, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16vw;
+    color: red;
+    letter-spacing: 0.5vw;
+    transition: 400ms;
 }
 
 @media (min-width: 900px) {
-	main {
+    main {
         background-color: rgb(25, 25, 222);
-	}
+    }
+
     #title {
         color: white;
     }
-    #nav-bar {
+
+    #sub {
         color: white;
     }
+
     article {
-        background-color:rgb(25, 25, 222);
+        background-color: rgb(25, 25, 222);
     }
+
     a {
         color: white;
     }
+
     div:hover {
         background-color: rgb(244, 9, 174);
     }
