@@ -62,10 +62,10 @@ div:hover {
 }
 
 div {
-    padding: 2vw;
-    color:black;
-    margin: 1vw;
-    border: 1px solid rgb(0, 0, 0);
+  padding: 2vw;
+  color: black;
+  margin: 1vw;
+  border: 1px solid rgb(0, 0, 0);
 }
 
 #thumbnail {
@@ -77,7 +77,7 @@ div {
 }
 
 span:hover {
-  font-family: lores-21-serif,sans-serif;
+  font-family: lores-21-serif, sans-serif;
   font-weight: 400;
   font-style: italic;
   font-size: 16vw;
@@ -104,7 +104,6 @@ a:hover {
 nav {
   padding: 2vw;
   background-color: white;
-  color: blue;
 }
 
 #nav-article {
@@ -126,9 +125,7 @@ nav {
 
 #nav-next {
   text-align: right;
-}z
-
-
+}
 
 @media (max-width: 500px) {
   section {
@@ -141,18 +138,21 @@ nav {
 @media (min-width: 900px) {
   div {
     padding: 1vw;
-    color:black;
+    color: black;
     margin: 0vw;
     border: 1px solid rgb(0, 0, 0);
-}
+  }
+
   #article-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-}
+  }
+
   section {
     margin: 1.5vw;
- }
- #thumbnail {
-  width: 9vw;
+  }
+
+  #thumbnail {
+    width: 9vw;
   }
 }
