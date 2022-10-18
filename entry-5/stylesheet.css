@@ -11,6 +11,7 @@ main {
     background-color: yellowgreen;
     font-style: normal;
     font-size: 5vw;
+    margin-bottom: 3vw;
 }
 
 #cozy {
@@ -81,7 +82,7 @@ span:hover {
         display: flex;
         flex-direction: column;
     }
-
+    
     div {
         font-size: 1em;
     }

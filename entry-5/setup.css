@@ -2,13 +2,6 @@ body {
     background-color: black;
 }
 
-header {
-    background-color: transparent;
-    border: 1px solid rgb(226, 21, 237);
-    padding: 0vw;
-
-}
-
 div {
     background-color: yellowgreen;
     font-family: aktiv-grotesk, sans-serif;
@@ -51,8 +44,42 @@ aside {
     border: 1px solid rgb(235, 16, 191);
 }
 
-@media (min-width: 900px) {
-    
+footer {
+    border: 1px solid yellow;
 }
+nav {
+    padding: 2vw;
+    background-color: white;
+  }
+  
+  #nav-article {
+    position: sticky;
+    top: 0;
+    margin-bottom: 3vw;
+  }
+  
+  #nav-aside {
+    text-align: center;
+    margin: 1vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  #nav-previous {
+    text-align: left;
+  }
+  
+  #nav-next {
+    text-align: right;
+  }
+
+  #nav-a {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5vw;
+    line-height: 1vw;
+    color: black;
+ }
 
 
