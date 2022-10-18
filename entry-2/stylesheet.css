@@ -1,0 +1,168 @@
+/* This is color palette
+Off White #F6F4E7 , Olive #55823A , Light Olive #9CBC5B */
+
+/* background + border effects 
+ <div class="heart-shape"></div> 
+ 
+ font-family: lores-21-serif,sans-serif;
+font-weight: 400;
+font-style: normal;
+ */
+
+
+
+body {
+  background-color: black;
+  padding: 2vw;
+}
+
+main {
+  display: grid;
+  grid-template-rows: auto;
+  gap: 2vw;
+  padding: 1vw;
+  background-color: chartreuse;
+  border: 1px solid rgb(195, 28, 237);
+}
+
+aside {
+  justify-content: center;
+  border: 0.5px solid rgb(167, 245, 23);
+}
+
+article {
+  margin-top: 5vw;
+  border: 1px solid greenyellow;
+}
+
+#article-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+section {
+  gap: 2vw;
+  padding: 1vw;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  background-color: chartreuse;
+  border: 1px solid blue
+}
+
+section:not(:first-child) {
+  margin-top: 2vw;
+}
+
+div:hover {
+  padding: 2.2vw;
+  color: white;
+  background-color: black;
+  transition: 300ms;
+  border-radius: 2vw;
+}
+
+div {
+  padding: 2vw;
+  color: black;
+  margin: 1vw;
+  border: 1px solid rgb(0, 0, 0);
+  align-content: center;
+}
+
+#thumbnail {
+  width: 20vw;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 1vw;
+}
+
+#thumbnail:hover {
+  margin: 1vw;
+  transition: 200ms;
+}
+
+span:hover {
+  font-family: lores-21-serif, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16vw;
+  color: red;
+  letter-spacing: 0.5vw;
+  transition: 300ms;
+}
+
+#info {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-justify: center;
+}
+
+a:hover {
+  color: red;
+  transition: 300ms;
+}
+
+#recent:hover {
+  padding: 1vw;
+  font-size: 7vw;
+  font-weight: 600;
+  color: red;
+  transition: 300ms;
+}
+
+nav {
+  padding: 2vw;
+  background-color: white;
+}
+
+#nav-article {
+  position: sticky;
+  top: 0;
+  margin-bottom: 3vw;
+}
+
+#nav-aside {
+  text-align: center;
+  margin: 1vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+#nav-previous {
+  text-align: left;
+}
+
+#nav-next {
+  text-align: right;
+}
+
+@media (max-width: 500px) {
+  section {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
+@media (min-width: 900px) {
+  div {
+    padding: 1vw;
+    color: black;
+    margin: 0vw;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+  #article-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  section {
+    margin: 1.5vw;
+  }
+
+  #thumbnail {
+    width: 9vw;
+  }
+}
