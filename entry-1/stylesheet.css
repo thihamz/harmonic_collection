@@ -1,4 +1,69 @@
-a {
+header {
+    border: 1px solid black;
+    padding: 2vw;
+    margin: 2vw
+}
+
+article {
+    margin-top: 5vw;
+    border: 1px solid greenyellow;
+}
+
+aside {
+    justify-content: center;
+    border: 0.5px solid rgb(167, 245, 23);
+}
+
+span:hover {
+    color: yellowgreen;
+    font-family: desire-pro, serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 24.5vw;
+    letter-spacing: 1vw;
+    line-height: 23vw;
+}
+
+nav {
+    padding: 2vw;
+    background-color: white;
+}
+
+#nav-article {
+    position: sticky;
+    top: 0;
+    margin-bottom: 3vw;
+}
+
+#nav-aside {
+    text-align: center;
+    margin: 1vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#nav-previous {
+    text-align: left;
+}
+
+#nav-next {
+    text-align: right;
+}
+
+#nav-a {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5vw;
+    line-height: 1vw;
+    color: black;
+}
+
+#nav-a:hover {
+    background-color: white;
+}
+
+#a-definition {
     border: 1px solid purple;
     width: 100%;
 }
@@ -22,9 +87,11 @@ div {
     border: 1px solid purple;
 }
 
-a:link,
-a:visited {
-    background-color: lightblue;
+div:hover {
+    padding: 1vw;
+}
+
+a:link {
     color: black;
     padding-top: 2vw;
     padding-bottom: 2vw;
@@ -50,8 +117,6 @@ a:hover {
     line-height: 16vw;
     color: black;
     text-align: left;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
 }
 
 
@@ -139,16 +204,19 @@ a:hover {
     .grid-container-element {
         background-color: white;
     }
+
     .header {
         color: rgb(255, 255, 255);
     }
+
     main {
         background-color: rgb(255, 255, 255);
     }
+
     a:link,
     a:visited {
-    background-color: white;
-    color: blue;
+        background-color: white;
+        color: blue;
     }
 
     a:hover {
@@ -159,7 +227,7 @@ a:hover {
     .title {
         color: blue;
     }
-    
+
     #blur {
         text-shadow: 0 0 6px blue;
     }
@@ -167,7 +235,7 @@ a:hover {
     .grid-child-element {
         color: blue;
     }
-    
+
     .grid-child-element:hover {
         color: white;
     }
@@ -175,11 +243,11 @@ a:hover {
     .grid-container-element:hover {
         background-color: hotpink;
     }
-    
+
     .aktiv-first {
         color: blue;
     }
-    
+
     .aktiv-first:hover {
         color: white;
     }
@@ -188,44 +256,46 @@ a:hover {
 @media (max-width: 500px) {
     .grid-container-element {
         grid-template-columns: 1fr;
-}
-.grid-container-element {
-    background-color: coral;
-}
-.header {
-    color: coral;
-}
-main {
-    background-color: coral;
-}
-a:link,
-a:visited {
-background-color: coral;
-color: white;
-}
+    }
 
-a:hover {
-    background-color: blueviolet;
-    color: white;
-}
+    .grid-container-element {
+        background-color: coral;
+    }
 
-.title {
-    color: white;
-}
+    .header {
+        color: coral;
+    }
 
-#blur {
-    text-shadow: 0 0 6px #ffffff;
-}
+    main {
+        background-color: coral;
+    }
 
-.grid-child-element {
-    color: white;
-}
+    a:link {
+        color: white;
+    }
 
-.grid-container-element:hover {
-    background-color: blueviolet;
-}
+    a:hover {
+        background-color: blueviolet;
+        color: white;
+    }
 
-.aktiv-first {
-    color: white;
-}
+    .title {
+        color: white;
+    }
+
+    #blur {
+        text-shadow: 0 0 6px #ffffff;
+    }
+
+    .grid-child-element {
+        color: white;
+    }
+
+    .grid-container-element:hover {
+        background-color: blueviolet;
+    }
+
+    .aktiv-first {
+        color: white;
+    }
 }
