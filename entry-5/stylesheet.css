@@ -7,9 +7,8 @@ header {
 }
 
 main {
-    border-radius: 50vw;
-    font-family: sloop;
-    font-weight: 400;
+    padding: 1vw;
+    background-color: yellowgreen;
     font-style: normal;
     font-size: 5vw;
 }
@@ -21,9 +20,48 @@ main {
     font-size: 10vw;
 }
 
+#recent {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 6vw;
+    line-height: 6vw;
+}
+
+#recent:hover {
+    color: red;
+}
+
+#title {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16vw;
+    line-height: 12vw;
+    letter-spacing: -0.8vw;
+}
+
+span:hover {
+    color: red;
+    font-family: sloop-script-pro,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20vw;
+    letter-spacing: 1vw;
+    transition: 300ms;
+}
+
 #thumbnail {
     padding: 2vw;
-    background-color: rgb(229, 245, 6);
+    background-color: yellowgreen;
+}
+
+#thumbnail:hover {
+    margin: 0.2vw;
+    border-radius: 2vw;
+    transition: 250ms;
 }
 
 #strain-info {
@@ -36,36 +74,70 @@ main {
 
 @media (max-width: 500px) {
     #thumbnail {
-        background-color:rgb(244, 56, 13);
+        background-color: blue;
     }
+    
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div {
+        font-size: 1em;
+    }
+    #title {
+        color: white;
+    }
+    #recent {
+        color: white;
+    }
+    main {
+         background-color: blue;
+    }
+    div {
+        background-color: blue;
+        color: white;
+    }
+
 }
 
 @media (min-width: 900px) {
+    #title {
+        color: black;
+    }
+
+    #recent {
+        color: black;
+    }
+
+    main {
+        background-color: yellow;
+    }
+
     #thumbnail {
-        background-color:rgb(22, 39, 232);
+        background-color: yellow;
     }
-}
 
-@media (max-width: 500px) {
-	article {
-	display: flex;
-    flex-direction: column;	
-	}
-}
-@media (min-width: 900px) {
-	article {
-	display: grid;
-    flex-direction: column;	
-    grid-template-columns: repeat(4, 1fr);
-	}
-}
-@media (max-width: 500px) {
-	div {
-	font-size: 1em;
-	}
-}
-@media (min-width: 900px) {
-	div {
-	font-size: 1.5em;
-	}
+    article {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    div {
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 1.2vw;
+        line-height: 1.5vw;
+        padding: 1vw;
+        border: 1px solid rgb(32, 108, 223);
+        flex-direction: column;
+        justify-content: space-around;
+        color: black;
+        background: yellow;
+    }
+    div:hover {
+        color: white;
+    }
 }

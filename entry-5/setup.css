@@ -1,6 +1,5 @@
 body {
-    background-color: rgb(241, 239, 239);
-
+    background-color: black;
 }
 
 header {
@@ -11,11 +10,25 @@ header {
 }
 
 div {
-    font-family: din-condensed, sans-serif;
-    font-size: 1.25em;
+    background-color: yellowgreen;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3vw;
+    line-height: 1vw;
+    padding: 2vw;
     border: 1px solid rgb(32, 108, 223);
     flex-direction: column;
     justify-content: space-around ;
+    color: black;
+}
+
+div:hover {
+    padding: 1.6vw;
+    background-color: red;
+    transition: 200ms;
+    border-radius: 2vw;
+    color: black;
 }
 
 article {
@@ -23,19 +36,23 @@ article {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2vw;
-    padding: 2vw;
+    padding: 1vw;
 }
 
 section {
     border: 1px solid rgb(226, 23, 23);
     border-radius: 0vw;
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
 }
 
 aside {
-    border: 1px solid rgb(16, 235, 41);
+    margin: 1vw;
+    border: 1px solid rgb(235, 16, 191);
 }
 
+@media (min-width: 900px) {
+    
+}
 
 
