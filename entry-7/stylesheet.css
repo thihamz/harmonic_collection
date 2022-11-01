@@ -1,0 +1,85 @@
+#title {
+    margin:1vw;
+    padding: 1vw;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 12vw;
+    line-height: 11vw;
+    color: white;
+}
+
+span:hover {
+    font-family: aviano-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12vw;
+    line-height: 11vw;
+}
+
+a:link { 
+    text-decoration: none;
+    color: white; 
+}
+
+#sub-header {
+    margin:1vw;
+    padding: 1vw;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4vw;
+    color: white;
+}
+
+#text {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2vw;
+    color: white;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#wrapper>div {
+    background-color: blue;
+}
+
+#wrapper>div:nth-child(odd) {
+    background-color: rgb(21, 137, 233)
+}
+
+#nav-article {
+    position: sticky;
+    top: 0;
+    margin-bottom: 3vw;
+}
+
+#nav-aside {
+    text-align: center;
+    margin: 1vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#nav-previous {
+    text-align: left;
+}
+
+#nav-a {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5vw;
+    line-height: 1vw;
+    color: black;
+}
+
+#nav-a:hover {
+    color: hotpink;
+}
+
