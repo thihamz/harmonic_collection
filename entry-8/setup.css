@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    border: 1px solid blueviolet
+}
+
+
+main {
+    display: grid;
+    grid-area: ;
+    border: 1px solid coral;
+}
+
+article {
+    margin-top: 3vw;
+    border: 1px solid greenyellow;
+}
+
+nav {
+    padding: 2vw;
+    background-color: white;
+}
+
+div {
+    margin: 1vw;
+    padding: 1vw;
+    border: 1px solid blue;
+}
