@@ -9,11 +9,11 @@ header {
 
 main {
     display: grid;
-    grid-area: ;
     border: 1px solid coral;
 }
 
 article {
+    
     margin-top: 3vw;
     border: 1px solid greenyellow;
 }
@@ -27,4 +27,8 @@ div {
     margin: 1vw;
     padding: 1vw;
     border: 1px solid blue;
+}
+
+section {
+    border: 1px solid hotpink;
 }

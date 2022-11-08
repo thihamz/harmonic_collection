@@ -1,36 +1,37 @@
 #title {
-    background-color:black;
-    margin:1vw;
+    background-color: black;
+    margin: 1vw;
     padding: 1vw;
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 12vw;
-    line-height: 11vw;
+    font-size: 15vw;
+    line-height: 13vw;
     color: white;
 }
 
 span:hover {
-    font-family: aviano-serif, serif;
+    font-family: lores-12, sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 12vw;
+    font-size: 15.5vw;
     line-height: 11vw;
+    color: red;
 }
 
-a:link { 
+a:link {
     text-decoration: none;
-    color: white; 
+    color: white;
 }
 
 #sub-header {
-    margin:1vw;
+    margin: 1vw;
     padding: 1vw;
     font-family: aktiv-grotesk, sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 4vw;
-    color: white;
+    color: rgb(245, 10, 10);
 }
 
 #text {
@@ -84,3 +85,64 @@ a:link {
     color: hotpink;
 }
 
+h1 {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3vw;
+    text-align: center;
+}
+
+p {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2vw;
+}
+
+section:hover {
+    background-color: hotpink;
+    padding: .3vw;
+}
+
+div {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5vw;
+}
+
+@media (max-width: 400px) {
+    section:hover {
+        background-color: aqua;
+    }
+    div {
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 2.5vw;
+        color: blue
+    }
+}
+
+@media (min-width: 1000px) {
+    section:hover {
+        background-color: greenyellow;
+    }
+    div {
+        font-family: aktiv-grotesk, sans-serif;
+        font-weight: 800;
+        font-style: normal;
+        font-size: 2.5vw;
+        color: green
+    }
+}
