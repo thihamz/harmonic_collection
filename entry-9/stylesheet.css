@@ -1,0 +1,103 @@
+#title {
+    background-color: hotpink;
+    margin: 1vw;
+    padding: 1vw;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 13vw;
+    line-height: 12vw;
+    color: blue;
+}
+
+span:hover {
+    font-family: lores-12, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15.5vw;
+    line-height: 11vw;
+    color: red;
+}
+
+a:link {
+    text-decoration: none;
+    color: blue;
+}
+
+a:link:hover {
+    color: white;
+}
+
+#sub-header {
+    margin: 1vw;
+    padding: 1vw;
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 4vw;
+    color: hotpink;
+}
+
+
+#container {
+    display: grid];
+    grid-template-rows: 1fr 4fr;
+
+}
+
+#content-button {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  
+
+}
+
+#responsive {
+    width: 100%;
+  height: auto;
+}
+
+
+
+
+
+#nav-article {
+    position: sticky;
+    top: 0;
+    margin-bottom: 3vw;
+    
+}
+
+#nav-aside {
+    text-align: center;
+    margin: 1vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#nav-previous {
+    text-align: left;
+}
+
+#nav-a {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5vw;
+    line-height: 1vw;
+    color: white;
+}
+
+#nav-a:hover {
+    color: blue;
+}
+
+
+
+
+
+div {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2.5vw;
+}

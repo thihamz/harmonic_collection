@@ -1,0 +1,35 @@
+body {
+    background-color: blue;
+}
+
+header {
+    border: 1px solid blueviolet
+}
+
+
+main {
+    display: grid;
+    border: 1px solid coral;
+}
+
+article {
+    
+    margin-top: 3vw;
+    border: 1px solid greenyellow;
+}
+
+nav {
+    padding: 2vw;
+    background-color: hotpink;
+}
+
+div {
+    margin: 1vw;
+    padding: 1vw;
+    border: 1px solid white;
+    text-align: center;
+}
+
+section {
+    border: 1px solid hotpink;
+}
