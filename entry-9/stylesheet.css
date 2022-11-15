@@ -43,6 +43,10 @@ a:link:hover {
 }
 
 button {
+    font-family: aktiv-grotesk, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2vw;
     background-color: hotpink;
     padding: calc(var(--base)/2);
     cursor: pointer;
