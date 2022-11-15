@@ -1,3 +1,7 @@
+body {
+    --base: 2vw;
+}
+
 #title {
     background-color: hotpink;
     margin: 1vw;
@@ -38,16 +42,40 @@ a:link:hover {
     color: hotpink;
 }
 
+button {
+    background-color: hotpink;
+    padding: calc(var(--base)/2);
+    cursor: pointer;
+    border-radius: calc(var(--base)/2);
+}
+
+button:nth-child(1) {
+    color: white;
+}
+button:nth-child(2) {
+    color: black;
+}
+button:nth-child(3) {
+    color: red;
+}
+button:nth-child(4) {
+    color: pink;
+}
+button:nth-child(5) {
+    color: blue;
+}
 
 #container {
-    display: grid];
+    padding: 2vw;
     grid-template-rows: 1fr 4fr;
-
 }
 
 #content-button {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);  
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: var(--base);
+    max-height: fit-content;
+    justify-content: space-around;
 
 }
 
@@ -58,7 +86,10 @@ a:link:hover {
 
 
 
+#shirts {
+    display: relative;
 
+}
 
 #nav-article {
     position: sticky;
